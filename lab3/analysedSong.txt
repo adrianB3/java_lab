@@ -1,0 +1,23 @@
+IMAGINE THERE'S NO HEAVEN -->WordCount: 5 -->VowelsNumber: 9 -->RandNumber: 0.0069210769645152714
+It's easy if you try -->WordCount: 6 -->VowelsNumber: 5 -->RandNumber: 0.10635908514665082
+No hell below us -->WordCount: 4 -->VowelsNumber: 5 -->RandNumber: 0.3772734436113936
+Above us only sky -->WordCount: 4 -->VowelsNumber: 4 -->RandNumber: 0.4583688672389584
+Imagine all the people living for today -->WordCount: 7 -->VowelsNumber: 13 -->RandNumber: 0.321394428290687
+IMAGINE THERE'S NO COUNTRIES -->WordCount: 5 -->VowelsNumber: 10 -->RandNumber: 0.038878539306892224
+It isn't hard to do -->WordCount: 6 -->VowelsNumber: 4 -->RandNumber: 0.3682543576341558
+Nothing to kill or die for -->WordCount: 6 -->VowelsNumber: 8 -->RandNumber: 0.46765331808539023
+And no religion too -->WordCount: 4 -->VowelsNumber: 7 -->RandNumber: 0.5789884594509811
+Imagine all the people living life in peace, you -->WordCount: 9 -->VowelsNumber: 18 -->RandNumber: 0.8245488935143084
+You may say I'm a dreamer -->WordCount: 7 -->VowelsNumber: 8 -->RandNumber: 0.3565477006102774
+But I'm not the only one* -->WordCount: 7 -->VowelsNumber: 6 -->RandNumber: 0.6247782100902219
+I hope some day you'll join us -->WordCount: 8 -->VowelsNumber: 10 -->RandNumber: 0.3966977321320354
+AND THE WORLD WILL BE AS ONE* -->WordCount: 7 -->VowelsNumber: 7 -->RandNumber: 0.08071708806840949
+Imagine no possessions -->WordCount: 3 -->VowelsNumber: 8 -->RandNumber: 0.60913203073841
+I wonder if you can -->WordCount: 5 -->VowelsNumber: 6 -->RandNumber: 0.8119256178502084
+No need for greed or hunger -->WordCount: 6 -->VowelsNumber: 9 -->RandNumber: 0.3769590535875751
+A brotherhood of man -->WordCount: 4 -->VowelsNumber: 6 -->RandNumber: 0.9154010950759489
+Imagine all the people sharing all the world, you -->WordCount: 9 -->VowelsNumber: 15 -->RandNumber: 0.17761190100125335
+You may say I'm a dreamer -->WordCount: 7 -->VowelsNumber: 8 -->RandNumber: 0.32068668342474016
+But I'm not the only one* -->WordCount: 7 -->VowelsNumber: 6 -->RandNumber: 0.18741511007136902
+I hope some day you'll join us -->WordCount: 8 -->VowelsNumber: 10 -->RandNumber: 0.18499887155509265
+And the world will be as one* -->WordCount: 7 -->VowelsNumber: 7 -->RandNumber: 0.8803526508075544

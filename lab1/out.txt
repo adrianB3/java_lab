@@ -1,0 +1,4 @@
+Sum : 18
+Average : 4.5
+Min : 2
+Max : 8

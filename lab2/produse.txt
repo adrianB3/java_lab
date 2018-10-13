@@ -1,0 +1,3 @@
+zahar;12;40
+pizza;15;10
+apa minerala;2.5;12

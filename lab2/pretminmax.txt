@@ -1,0 +1,2 @@
+Pret min : apa minerala| 2.5| 12.0
+Pret max : pizza| 15.0| 10.0
