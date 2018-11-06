@@ -128,8 +128,7 @@ public class Main extends JFrame{
 		public void actionPerformed(ActionEvent e) {
 			op1Text.setText("");
 			op2Text.setText("");
-			resultText.setText("");
-			
+			resultText.setText("");			
 		}
     	
     }
