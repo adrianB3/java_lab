@@ -1,8 +1,6 @@
 package prob2;
 
 import javax.swing.*;
-import javax.swing.border.Border;
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -26,15 +24,17 @@ public class Main extends JFrame{
 		initialize();
 		
 		mainFrame.setLayout(new BorderLayout());
+		
 		input = new JTextField(20);
 		
 		DefaultListModel<String> listModel = new DefaultListModel<String>();
-		
 		lista = new JList<String>(listModel);
-		JScrollPane scrollPane1 = new JScrollPane(lista);
-	    mainFrame.add(scrollPane1);
-	    
-	    
+		
+		JScrollPane scrollPane = new JScrollPane(lista);
+		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+	    scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+	    scrollPane.setPreferredSize(new Dimension(30,30));
+	    	    
 		b_stergere = new JButton("Sterge");
 		b_stergere.setBackground(new Color(20, 20, 120, 5));
 		b_stergere.addActionListener(new ActionListener() {
@@ -56,8 +56,10 @@ public class Main extends JFrame{
 			}
 		});
 		
+		mainFrame.getRootPane().setWindowDecorationStyle(JRootPane.PLAIN_DIALOG);
+	    mainFrame.add(scrollPane, BorderLayout.CENTER);
 		mainFrame.add(input,BorderLayout.NORTH);
-		mainFrame.add(lista, BorderLayout.CENTER);
+		//mainFrame.add(lista, BorderLayout.CENTER); // not needed anymore because of scroll pane
 		mainFrame.add(b_stergere, BorderLayout.SOUTH);
 		
 		

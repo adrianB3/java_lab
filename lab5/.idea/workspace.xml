@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4334a7b1-d81d-4f7f-ae80-df4ef9c6693e" name="Default Changelist" comment="" />
+    <list default="true" id="4334a7b1-d81d-4f7f-ae80-df4ef9c6693e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../eclipse_projects/lab_6/src/lab_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse_projects/lab_6/src/lab_6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse_projects/lab_6/src/prob2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse_projects/lab_6/src/prob2/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +16,13 @@
     <session id="1832737409">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -99,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +118,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,6 +231,7 @@
       <workItem from="1540834073533" duration="525000" />
       <workItem from="1541491741917" duration="203000" />
       <workItem from="1541921766863" duration="29000" />
+      <workItem from="1542701292642" duration="334000" />
     </task>
     <servers />
   </component>
@@ -237,12 +241,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9721000" />
+    <option name="totallyTimeSpent" value="10055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1656017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16767372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

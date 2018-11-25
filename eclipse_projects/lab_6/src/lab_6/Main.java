@@ -1,6 +1,5 @@
 package lab_6;
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
