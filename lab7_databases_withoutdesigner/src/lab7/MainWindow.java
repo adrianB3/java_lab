@@ -152,7 +152,48 @@ public class MainWindow extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				int opt = JOptionPane.showConfirmDialog(panel, "Esti sigur ca vrei sa stergi pers. cu id-ul: " + persoane.get(currentSel).getId() + " ?");
 				if(opt == JOptionPane.YES_OPTION) {
-					// TODO delete from db
+					try {
+						PreparedStatement pr = (PreparedStatement) DbContext.conn.prepareStatement("delete from persoane where id=?");
+						pr.setInt(1, Integer.parseInt(txtId.getText()));
+						
+						pr.executeUpdate();
+					} catch (SQLException e1) {
+						e1.printStackTrace();
+					}
+					
+					state = 0;
+					manageState();
+					try {
+						DbContext.disconnect();
+						persoane.clear();
+						retriveAll();
+					} catch (SQLException e1) {
+						
+						e1.printStackTrace();
+					}
+				}
+			}
+		});
+		
+		btnSearch.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String nameToBeFound = JOptionPane.showInputDialog(panel, "Nume: ");
+				boolean isFound = false;
+				for (int i = 0; i < persoane.size(); i++) {
+					if(persoane.get(i).getNume().equals(nameToBeFound)) {
+						isFound = true;
+						currentSel = i;
+						txtField.setText(currentSel + "/" + (persoane.size()-1));
+						txtId.setText(Integer.toString(persoane.get(i).getId()));
+						txtNume.setText(persoane.get(i).getNume());
+						txtVarsta.setText(Integer.toString(persoane.get(i).getVarsta()));
+						break;
+					}
+				}
+				if(!isFound) {
+					JOptionPane.showMessageDialog(panel, "Persoana cu numele " + nameToBeFound + " nu a fost gasita.");
 				}
 			}
 		});
