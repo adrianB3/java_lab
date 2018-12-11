@@ -83,6 +83,7 @@ public class MainWindow extends JFrame{
 					txtNume.setText(persoane.get(currentSel).getNume());
 					txtVarsta.setText(Integer.toString(persoane.get(currentSel).getVarsta()));
 				}
+				manageState();
 			}
 		});
 		
@@ -97,6 +98,7 @@ public class MainWindow extends JFrame{
 					txtNume.setText(persoane.get(currentSel).getNume());
 					txtVarsta.setText(Integer.toString(persoane.get(currentSel).getVarsta()));
 				}
+				manageState();
 			}
 		});
 		
@@ -288,6 +290,7 @@ public class MainWindow extends JFrame{
 		while(rs.next()) {
 			persoane.add(new Persoana(rs.getInt(1), rs.getString(2), rs.getInt(3)));
 		}
+		currentSel = 0;
 		txtField.setText(currentSel + "/" + (persoane.size()-1));
 		txtId.setText(Integer.toString(persoane.get(currentSel).getId()));
 		txtNume.setText(persoane.get(currentSel).getNume());
@@ -301,11 +304,23 @@ public class MainWindow extends JFrame{
 			txtId.setEditable(false);
 			txtNume.setEditable(false);
 			txtVarsta.setEditable(false);
+			if(currentSel == 0) {
+				btnFirst.setEnabled(false);
+				btnPrevious.setEnabled(false);
+			}
+			else {
+				btnFirst.setEnabled(true);
+				btnPrevious.setEnabled(true);
+			}
+			if(currentSel == persoane.size() - 1) {
+				btnLast.setEnabled(false);
+				btnNext.setEnabled(false);
+			}
+			else {
+				btnLast.setEnabled(true);
+				btnNext.setEnabled(true);
+			}
 			
-			btnFirst.setEnabled(true);
-			btnLast.setEnabled(true);
-			btnNext.setEnabled(true);
-			btnPrevious.setEnabled(true);
 			btnAdd.setEnabled(true);
 			btnEdit.setEnabled(true);
 			btnDelete.setEnabled(true);
